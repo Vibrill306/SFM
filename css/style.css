@@ -46,11 +46,11 @@ main button:hover{
 }
 
 
-h1::after {
+/* h1::after { */
     /* content: "SFM SAFETYFIRE INDUSTRIES Pvt. Ltd.";
     animation: animate infinite 5s;
     padding-left: 10px; */
-}
+/* } */
 
 
 @keyframes animate {
