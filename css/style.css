@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     margin: 0px auto;
@@ -23,4 +24,68 @@
 
 .section-2 p{
     font-size: large;
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    
+}
+main h1{
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center!important;
+    animation: mymove 20s infinite;
+}
+main span{
+    text-align: center!important;
+}
+
+main a{
+    text-decoration: none;
+    text-align: center;
+}
+main button{
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    margin-top: 20px!important;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: solid 1px rgba(255, 255, 255, 0.5);
+    color: #fff;
+    width: 200px!important;
+}
+main button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+/* h1::after { */
+    /* content: "SFM SAFETYFIRE INDUSTRIES Pvt. Ltd.";
+    animation: animate infinite 5s;
+    padding-left: 10px; */
+/* } */
+
+
+@keyframes animate {
+/*   
+    0% {
+        content: "SFM SAFETYFIRE INDUSTRIES Pvt. Ltd.";
+    }
+
+    50% {
+        content: "Vibrill Fire Safe Pvt. Ltd.";
+    }
+
+    100% {
+        content: "SFM SAFETYFIRE INDUSTRIES Pvt. Ltd.";
+    } */
 }
