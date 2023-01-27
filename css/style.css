@@ -50,6 +50,8 @@ main{
     /* background-color: black; */
     background: url('../images/home.jpg');
     background-size: cover;
+    background-color: black;
+    
 }
 main .container{
     position: absolute;
